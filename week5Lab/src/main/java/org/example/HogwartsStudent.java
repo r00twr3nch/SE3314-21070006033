@@ -14,11 +14,9 @@ public class HogwartsStudent {
 
     /**
      * Constructs a new Hogwarts student.
-     * 
      * @param name  The student's name. 
      * @param house The house of the student. 
      * @param year  The study year of the student. 
-     * 
      * Effects: Initializes a student with an empty spell list.
      */
     public HogwartsStudent(String name, String house, int year) {
@@ -34,10 +32,8 @@ public class HogwartsStudent {
 
     /**
      * Attempts to add a new spell to the student's learned spells.
-     * 
      * @param spell The spell to learn. 
      * @return true if the spell was learned, false otherwise.
-     * 
      * Effects: If spell is valid and not already known, it is added to spellsLearned.
      */
     public boolean learnSpell(String spell) {
@@ -50,10 +46,8 @@ public class HogwartsStudent {
 
     /**
      * Checks if the student knows a specific spell.
-     * 
      * @param spell The spell to check. 
      * @return true if the student knows the spell, false otherwise.
-     * 
      * Effects: Returns whether the spell exists in spellsLearned.
      */
     public boolean knowsSpell(String spell) {
